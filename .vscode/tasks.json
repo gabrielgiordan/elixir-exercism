@@ -1,0 +1,49 @@
+{
+    "version": "2.0.0",
+    "tasks": [
+        {
+            "label": "Exercism - Elixir Run",
+            "type": "shell",
+            "command": "elixir ${file}",
+            "problemMatcher": [
+                "$tsc"
+            ],
+            "group": {
+                "kind": "build",
+                "isDefault": true
+            }
+        },
+        {
+            "label": "Exercism - Elixir Test",
+            "type": "shell",
+            "command": "elixir ${fileDirname}\\${fileBasenameNoExtension}_test.exs",
+            "problemMatcher": [
+                "$tsc"
+            ]
+        },
+        {
+            "label": "Exercism - Elixir Submit",
+            "type": "shell",
+            "command": "exercism submit ${file}",
+            "problemMatcher": [
+                "$tsc"
+            ]
+        },
+        {
+            "label": "Exercism - Elixir Download",
+            "type": "shell",
+            "command": "exercism download --exercise=${input:exercise} --track=elixir",
+            "problemMatcher": [
+                "$tsc"
+            ]
+        }
+    ],
+    "inputs": [
+        {
+            "id": "exercise",
+            "description": "Exercise name",
+            "default": "hello-world",
+            "type": "promptString"
+        }
+    ]
+}
