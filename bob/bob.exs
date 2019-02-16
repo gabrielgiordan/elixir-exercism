@@ -2,7 +2,7 @@ defmodule Bob do
   def hey(input) do
     silence? = String.trim(input) == ""
     asking? = String.ends_with?(input, "?")
-    shouting? = String.match?(input, ~r/[\p{L}]+/) and input === String.upcase(input)
+    shouting? = input != String.downcase(input) and input == String.upcase(input)
 
     cond do
       silence? -> "Fine. Be that way!"
