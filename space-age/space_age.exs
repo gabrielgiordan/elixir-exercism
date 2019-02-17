@@ -14,17 +14,15 @@ defmodule SpaceAge do
   aged on 'planet'.
   """
   @orbit_period %{
-    mercury: 0.2408467,
-    venus: 0.61519726,
+    mercury: 7600543.81992,
+    venus: 19414149.052176,
     earth: 31557600,
-    mars: 1.8808158,
-    jupiter: 11.862615,
-    saturn: 29.447498,
-    uranus: 84.016846,
-    neptune: 164.79132
+    mars: 59354032.69008,
+    jupiter: 374355659.124,
+    saturn: 929292362.8848,
+    uranus: 2651370019.3296,
+    neptune: 5200418560.032
   }
-
   @spec age_on(planet, pos_integer) :: float
-  def age_on(:earth, seconds), do: seconds / @orbit_period[:earth]
-  def age_on(planet, seconds), do: seconds / (@orbit_period[:earth] * @orbit_period[planet])
+  def age_on(planet, seconds), do: seconds / @orbit_period[planet]
 end
