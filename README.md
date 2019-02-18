@@ -14,7 +14,8 @@
 # Problems
 |   | Problem  | Solution | Notes |
 |-- |:--------:|:--------:|:-----:|
-| ⭐ | [Twelve Days](twelve-days) | [.exs](twelve-days/twelve_days.exs) | Recursive solution |
+| ⭐ | [Accumulate](accumulate) | [.exs](accumulate/accumulate.exs) | |
+| ⭐ | [Twelve Days](twelve-days) | [.exs](twelve-days/twelve_days.exs) | |
 |  | [Space Age](space-age) | [.exs](space-age/space_age.exs) | |
 | ⭐ | [Pig Latin](pig-latin) | [.exs](pig-latin/pig_latin.exs) | |
 |  | [Protein Translation](protein-translation) | [.exs](protein-translation/protein_translation.exs) | |
