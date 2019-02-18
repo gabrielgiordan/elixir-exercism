@@ -1,12 +1,27 @@
 <p align="center">
   <a href="https://exercism.io/profiles/gabrielgiordan">
-    <img alt="Exercism" src="https://avatars2.githubusercontent.com/u/1481354?s=80&v=4">
+    <img alt="Exercism" width="100" src="https://assets.exercism.io/tracks/elixir-hex-turquoise.png">
   </a>
 </p>
 <p align="center">
-  <img alt="Solutions" src="https://img.shields.io/badge/Solutions-3-blueviolet.svg?longCache=true&style=flat-square">
-  <img alt="Languages" src="https://img.shields.io/badge/Languages-Elixir-blueviolet.svg?longCache=true&style=flat-square">
+  <img alt="Solutions" src="https://img.shields.io/badge/Solutions-11-51b1a8.svg?longCache=true&style=for-the-badge">
+  <img alt="Languages" src="https://img.shields.io/badge/Languages-Elixir-51b1a8.svg?longCache=true&style=for-the-badge">
 </p>
 <p align="center">
-  Elixir's Exercism solutions maintained by <a alt="Exercism profile" href="https://exercism.io/profiles/gabrielgiordan" >Gabriel Giordano</a>
+  <a alt="Exercism profile" href="https://exercism.io/profiles/gabrielgiordan" >Gabriel Giordano's</a> functional programming Elixir  solutions for Exercism problems.
 </p>
+
+# Problems
+|   | Problem  | Solution | Notes |
+|-- |:--------:|:--------:|:-----:|
+| ⭐ | [Twelve Days](twelve-days) | [.exs](twelve-days/twelve_days.exs) | Recursive solution |
+|  | [Space Age](space-age) | [.exs](space-age/space_age.exs) | |
+| ⭐ | [Pig Latin](pig-latin) | [.exs](pig-latin/pig_latin.exs) | |
+|  | [Protein Translation](protein-translation) | [.exs](protein-translation/protein_translation.exs) | |
+|  | [Strain](strain)| [.exs](strain/strain.exs) | |
+|  | [Rotational Cipher](rotational-cipher) | [.exs](rotational-cipher/rotational_cipher.exs) | |
+| ⭐ | [Secret Handshake](secret-handshake) | [.exs](secret-handshake/secret_handshake.exs) | Binary pattern matching, without Bitwise module |
+|  | [Nucleotide Count](nucleotide-count) | [.exs](nucleotide-count/nucleotide_count.exs) | |
+|  | [Word Count](word-count) | [.exs](word-count/word_count.exs) | |
+|  | [Bob](bob) | [.exs](bob/bob.exs) | |
+|  | [Hello World](hello-world) | [.exs](hello-world/hello_world.exs) | |
