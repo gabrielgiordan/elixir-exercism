@@ -4,7 +4,7 @@
   </a>
 </p>
 <p align="center">
-  <img alt="Solutions" src="https://img.shields.io/badge/Solutions-11-51b1a8.svg?longCache=true&style=for-the-badge">
+  <img alt="Solutions" src="https://img.shields.io/badge/Solutions-13-51b1a8.svg?longCache=true&style=for-the-badge">
   <img alt="Languages" src="https://img.shields.io/badge/Languages-Elixir-51b1a8.svg?longCache=true&style=for-the-badge">
 </p>
 <p align="center">
@@ -14,6 +14,7 @@
 # Problems
 |   | Problem  | Solution | Notes |
 |-- |:--------:|:--------:|:-----:|
+| ⭐ | [Acronym](acronym) | [.exs](acronym/acronym.exs) | Acronym solved performaticaly and recursively with the bits of the String |
 | ⭐ | [Accumulate](accumulate) | [.exs](accumulate/accumulate.exs) | |
 | ⭐ | [Twelve Days](twelve-days) | [.exs](twelve-days/twelve_days.exs) | |
 |  | [Space Age](space-age) | [.exs](space-age/space_age.exs) | |
