@@ -4,8 +4,8 @@
   </a>
 </p>
 <p align="center">
-  <img alt="Solutions" src="https://img.shields.io/badge/Solutions-13-51b1a8.svg?longCache=true&style=for-the-badge">
-  <img alt="Languages" src="https://img.shields.io/badge/Languages-Elixir-51b1a8.svg?longCache=true&style=for-the-badge">
+  <img alt="Solutions" src="https://img.shields.io/badge/Solutions-13-009DA9.svg?longCache=true&style=for-the-badge">
+  <img alt="Languages" src="https://img.shields.io/badge/Languages-Elixir-009DA9.svg?longCache=true&style=for-the-badge">
 </p>
 <p align="center">
   <a alt="Exercism profile" href="https://exercism.io/profiles/gabrielgiordan" >Gabriel Giordano's</a> functional programming Elixir  solutions for Exercism problems.
