@@ -1,9 +1,4 @@
 defmodule TwelveDays do
-
-  @phrase [
-    "On the",
-    "day of Christmas my true love gave to me: "
-  ]
   @days [
     "first",
     "second",
@@ -38,28 +33,20 @@ defmodule TwelveDays do
   all gifts for previous days in the same line.
   """
   @spec verse(number :: integer) :: String.t()
-  def verse(number) when number in 1..12 do
-    "#{Enum.at(@phrase, 0)} #{Enum.at(@days, number - 1)} #{Enum.at(@phrase, 1)}" <>
-    for n <- number - 1..0, into: "" do
-      Enum.at(@gifts, n) <>
-      cond do
-        n == 0 -> "."
-        n == 1 -> ", and "
-        true -> ", "
-      end
-    end
+  def verse(n) when n in 1..12 do
+    "On the #{Enum.at(@days, n - 1)} day of Christmas my true love gave to me: #{gifts(n - 1)}"
   end
+  defp gifts(0), do: Enum.at(@gifts, 0) <> "."
+  defp gifts(1), do: Enum.at(@gifts, 1) <> ", and " <> gifts(0)
+  defp gifts(n), do: Enum.at(@gifts, n) <> ", " <> gifts(n - 1)
 
   @doc """
   Given a `starting_verse` and an `ending_verse`, return the verses for each
   included day, one per line.
   """
   @spec verses(starting_verse :: integer, ending_verse :: integer) :: String.t()
-  def verses(starting_verse, ending_verse) do
-    for v <- starting_verse..ending_verse - 1, into: "" do
-      verse(v) <> "\n"
-    end <> verse(ending_verse)
-  end
+  def verses(s, e) when s == e, do: verse(s)
+  def verses(s, e), do: verse(s) <> "\n" <> verses(s + 1, e)
 
   @doc """
   Sing all 12 verses, in order, one verse per line.
