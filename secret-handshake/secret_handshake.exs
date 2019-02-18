@@ -16,8 +16,7 @@ defmodule SecretHandshake do
   @spec commands(code :: integer) :: list(String.t())
   def commands(code) do
     <<b5::1, b4::1, b3::1, b2::1, b1::1>> = <<code::5>>
-    a = []
-    a = if b1 == 1, do: ["wink" | a], else: a
+    a = if b1 == 1, do: ["wink"], else: []
     a = if b2 == 1, do: ["double blink" | a], else: a
     a = if b3 == 1, do: ["close your eyes" | a], else: a
     a = if b4 == 1, do: ["jump" | a], else: a
