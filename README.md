@@ -14,6 +14,7 @@
 # Problems
 |   | Problem  | Solution | Notes |
 |-- |:--------:|:--------:|:-----:|
+| ⭐ | [Series](series) | [.exs](series/series.exs) | Performative solution with pattern matching in O(n*2) where n is the length of the String |
 | ⭐ | [Acronym](acronym) | [.exs](acronym/acronym.exs) | Acronym solved performaticaly and recursively with the bits of the String |
 | ⭐ | [Accumulate](accumulate) | [.exs](accumulate/accumulate.exs) | |
 | ⭐ | [Twelve Days](twelve-days) | [.exs](twelve-days/twelve_days.exs) | |
