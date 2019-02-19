@@ -4,18 +4,18 @@
   </a>
 </p>
 <p align="center">
-  <img alt="Solutions" src="https://img.shields.io/badge/Solutions-13-009DA9.svg?longCache=true&style=for-the-badge">
+  <img alt="Solutions" src="https://img.shields.io/badge/Solutions-14-009DA9.svg?longCache=true&style=for-the-badge">
   <img alt="Languages" src="https://img.shields.io/badge/Languages-Elixir-009DA9.svg?longCache=true&style=for-the-badge">
 </p>
 <p align="center">
-  <a alt="Exercism profile" href="https://exercism.io/profiles/gabrielgiordan" >Gabriel Giordano's</a> functional programming Elixir  solutions for Exercism problems.
+  <a alt="Exercism profile" href="https://exercism.io/profiles/gabrielgiordan">Gabriel Giordano's</a> functional programming Elixir  solutions for Exercism problems.
 </p>
 
 # Problems
 |   | Problem  | Solution | Notes |
 |-- |:--------:|:--------:|:-----:|
-| ⭐ | [Series](series) | [.exs](series/series.exs) | Performative solution with pattern matching in O(n*2) where n is the length of the String |
-| ⭐ | [Acronym](acronym) | [.exs](acronym/acronym.exs) | Acronym solved performaticaly and recursively with the bits of the String |
+| ⭐ | [Series](series) | [.exs](series/series.exs) | Performative and recursive solution with pattern matching in O(n*2) where n is the length of the String |
+| ⭐ | [Acronym](acronym) | [.exs](acronym/acronym.exs) | Performative and recursive solution using the bits of the String |
 | ⭐ | [Accumulate](accumulate) | [.exs](accumulate/accumulate.exs) | |
 | ⭐ | [Twelve Days](twelve-days) | [.exs](twelve-days/twelve_days.exs) | |
 |  | [Space Age](space-age) | [.exs](space-age/space_age.exs) | |
