@@ -4,7 +4,7 @@
   </a>
 </p>
 <p align="center">
-  <img alt="Solutions" src="https://img.shields.io/badge/Solutions-15-009DA9.svg?longCache=true&style=for-the-badge">
+  <img alt="Solutions" src="https://img.shields.io/badge/Solutions-16-009DA9.svg?longCache=true&style=for-the-badge">
   <img alt="Languages" src="https://img.shields.io/badge/Languages-Elixir-009DA9.svg?longCache=true&style=for-the-badge">
 </p>
 <p align="center">
@@ -14,6 +14,7 @@
 # Problems
 |   | Problem  | Solution | Notes |
 |-- |:--------:|:--------:|:-----:|
+|   | [RNA Transcription](rna-transcription) | [.exs](rna-transcription/rna-transcription.exs) | |
 |   | [Raindrops](raindrops) | [.exs](raindrops/raindrops.exs) | Ternary operator simulated with && and &#124;&#124; |
 | ⭐ | [Series](series) | [.exs](series/series.exs) | Performative and recursive solution with pattern matching in O(n*2) where n is the length of the String |
 | ⭐ | [Acronym](acronym) | [.exs](acronym/acronym.exs) | Performative and recursive solution using the bits of the String |
