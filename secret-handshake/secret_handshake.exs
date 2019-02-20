@@ -15,11 +15,11 @@ defmodule SecretHandshake do
   """
   @spec commands(code :: integer) :: list(String.t())
   def commands(code) do
-    <<b5::1, b4::1, b3::1, b2::1, b1::1>> = <<code::5>>
-    a = if b1 == 1, do: ["wink"], else: []
-    a = if b2 == 1, do: ["double blink" | a], else: a
-    a = if b3 == 1, do: ["close your eyes" | a], else: a
-    a = if b4 == 1, do: ["jump" | a], else: a
-    if b5 == 1, do: a, else: Enum.reverse(a)
+    <<e::1, d::1, c::1, b::1, a::1>> = <<code::5>>
+    h = a == 1 && ["wink"] || []
+    h = b == 1 && ["double blink" | h] || h
+    h = c == 1 && ["close your eyes" | h] || h
+    h = d == 1 && ["jump" | h] || h
+    e == 1 && h || Enum.reverse(h)
   end
 end
