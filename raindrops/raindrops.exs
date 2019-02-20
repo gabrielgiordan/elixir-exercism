@@ -10,9 +10,9 @@ defmodule Raindrops do
   """
   @spec convert(pos_integer) :: String.t()
   def convert(number) do
-    r = if rem(number, 3) == 0, do: "Pling", else: <<>>
-    r = if rem(number, 5) == 0, do: "#{r}Plang", else: r
-    r = if rem(number, 7) == 0, do: "#{r}Plong", else: r
-    if byte_size(r) == 0, do: to_string(number), else: r
+    r = rem(number, 3) == 0 && "Pling" || <<>>
+    r = rem(number, 5) == 0 && "#{r}Plang" || r
+    r = rem(number, 7) == 0 && "#{r}Plong" || r
+    byte_size(r) == 0 && to_string(number) || r
   end
 end

@@ -14,7 +14,7 @@
 # Problems
 |   | Problem  | Solution | Notes |
 |-- |:--------:|:--------:|:-----:|
-|   | [Raindrops](raindrops) | [.exs](raindrops/raindrops.exs) | |
+|   | [Raindrops](raindrops) | [.exs](raindrops/raindrops.exs) | Ternary operator simulated with && and &#124;&#124; |
 | ⭐ | [Series](series) | [.exs](series/series.exs) | Performative and recursive solution with pattern matching in O(n*2) where n is the length of the String |
 | ⭐ | [Acronym](acronym) | [.exs](acronym/acronym.exs) | Performative and recursive solution using the bits of the String |
 | ⭐ | [Accumulate](accumulate) | [.exs](accumulate/accumulate.exs) | |
