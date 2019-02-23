@@ -4,7 +4,7 @@
   </a>
 </p>
 <p align="center">
-  <img alt="Solutions" src="https://img.shields.io/badge/Solutions-17-009DA9.svg?longCache=true&style=for-the-badge">
+  <img alt="Solutions" src="https://img.shields.io/badge/Solutions-18-009DA9.svg?longCache=true&style=for-the-badge">
   <img alt="Languages" src="https://img.shields.io/badge/Languages-Elixir-009DA9.svg?longCache=true&style=for-the-badge">
 </p>
 <p align="center">
@@ -12,22 +12,23 @@
 </p>
 
 # Problems
-|   | Problem  | Solution | Notes |
-|-- |:--------:|:--------:|:-----:|
-|   | [Run Length Encoding](run-length-encoding) | [.exs](run-length-encoding/rle.exs) | Recursive solution |
-|   | [RNA Transcription](rna-transcription) | [.exs](rna-transcription/rna_transcription.exs) | |
-|   | [Raindrops](raindrops) | [.exs](raindrops/raindrops.exs) | Ternary operator simulated with && and &#124;&#124; |
-| ⭐ | [Series](series) | [.exs](series/series.exs) | Performative and recursive solution with pattern matching in O(n*2) where n is the length of the String |
-| ⭐ | [Acronym](acronym) | [.exs](acronym/acronym.exs) | Performative and recursive solution using the bits of the String |
-| ⭐ | [Accumulate](accumulate) | [.exs](accumulate/accumulate.exs) | |
-| ⭐ | [Twelve Days](twelve-days) | [.exs](twelve-days/twelve_days.exs) | |
-|  | [Space Age](space-age) | [.exs](space-age/space_age.exs) | |
-|  | [Pig Latin](pig-latin) | [.exs](pig-latin/pig_latin.exs) | |
-|  | [Protein Translation](protein-translation) | [.exs](protein-translation/protein_translation.exs) | |
-|  | [Strain](strain)| [.exs](strain/strain.exs) | |
-|  | [Rotational Cipher](rotational-cipher) | [.exs](rotational-cipher/rotational_cipher.exs) | |
-| ⭐ | [Secret Handshake](secret-handshake) | [.exs](secret-handshake/secret_handshake.exs) | Binary pattern matching, without Bitwise module |
-|  | [Nucleotide Count](nucleotide-count) | [.exs](nucleotide-count/nucleotide_count.exs) | |
-|  | [Word Count](word-count) | [.exs](word-count/word_count.exs) | |
-|  | [Bob](bob) | [.exs](bob/bob.exs) | |
-|  | [Hello World](hello-world) | [.exs](hello-world/hello_world.exs) | |
+|   | Problem  | Solution | Categories | Notes |
+|-- |:--------:|:--------:|:----------:|:-----:|
+| ⭐ | [Sublist](sublist) | [.exs](sublist/sublist.exs) | Lists, Enumeration | Recursive and efficient solution |
+| ⭐ | [Run Length Encoding](run-length-encoding) | [.exs](run-length-encoding/rle.exs) | Algorithms, Strings | Encode and decode recursively |
+|    | [Raindrops](raindrops) | [.exs](raindrops/raindrops.exs) | Conditionals | Ternary operator simulated with && and &#124;&#124; |
+| ⭐ | [Series](series) | [.exs](series/series.exs) | String Processing | Performative and recursive solution with pattern matching in O(n*2) where n is the length of the String |
+| ⭐ | [Acronym](acronym) | [.exs](acronym/acronym.exs) | String Processing | Performative and recursive solution using the bits of the String |
+|    | [Accumulate](accumulate) | [.exs](accumulate/accumulate.exs) | Recursion, Reduce | Simple solution to map with recursion |
+|    | [Twelve Days](twelve-days) | [.exs](twelve-days/twelve_days.exs) | Enumerations, Reduce, String Formatting | Compose each verse recursively |
+|    | [Space Age](space-age) | [.exs](space-age/space_age.exs) | Pattern Matching | Just pre-multiply the planet orbit by the Earth orbit |
+|    | [Pig Latin](pig-latin) | [.exs](pig-latin/pig_latin.exs) | Pattern Matching, String Processing | Translate recursively |
+|    | [Protein Translation](protein-translation) | [.exs](protein-translation/protein_translation.exs) | Pattern Matching, String Processing | Simple solution to get recursively each codon using the binary of the String |
+|    | [Strain](strain)| [.exs](strain/strain.exs) | Collections | Simple solution to filter an Enum |
+|    | [Rotational Cipher](rotational-cipher) | [.exs](rotational-cipher/rotational_cipher.exs) | String Processing | |
+| ⭐ | [Secret Handshake](secret-handshake) | [.exs](secret-handshake/secret_handshake.exs) | Binary Representation | Binary pattern matching, without Bitwise module |
+|    | [Nucleotide Count](nucleotide-count) | [.exs](nucleotide-count/nucleotide_count.exs) | Enumerables, Maps, String Processing | |
+|    | [RNA Transcription](rna-transcription) | [.exs](rna-transcription/rna_transcription.exs) | Strings | |
+|    | [Word Count](word-count) | [.exs](word-count/word_count.exs) | Lists, Maps, Reduce | |
+|    | [Bob](bob) | [.exs](bob/bob.exs) | Control Flow, String Processing | |
+|    | [Hello World](hello-world) | [.exs](hello-world/hello_world.exs) | Strings |  |
