@@ -4,7 +4,7 @@
   </a>
 </p>
 <p align="center">
-  <img alt="Solutions" src="https://img.shields.io/badge/Solutions-16-009DA9.svg?longCache=true&style=for-the-badge">
+  <img alt="Solutions" src="https://img.shields.io/badge/Solutions-17-009DA9.svg?longCache=true&style=for-the-badge">
   <img alt="Languages" src="https://img.shields.io/badge/Languages-Elixir-009DA9.svg?longCache=true&style=for-the-badge">
 </p>
 <p align="center">
@@ -14,6 +14,7 @@
 # Problems
 |   | Problem  | Solution | Notes |
 |-- |:--------:|:--------:|:-----:|
+|   | [Run Length Encoding](run-length-encoding) | [.exs](run-length-encoding/rle.exs) | Recursive solution |
 |   | [RNA Transcription](rna-transcription) | [.exs](rna-transcription/rna_transcription.exs) | |
 |   | [Raindrops](raindrops) | [.exs](raindrops/raindrops.exs) | Ternary operator simulated with && and &#124;&#124; |
 | ⭐ | [Series](series) | [.exs](series/series.exs) | Performative and recursive solution with pattern matching in O(n*2) where n is the length of the String |
@@ -21,7 +22,7 @@
 | ⭐ | [Accumulate](accumulate) | [.exs](accumulate/accumulate.exs) | |
 | ⭐ | [Twelve Days](twelve-days) | [.exs](twelve-days/twelve_days.exs) | |
 |  | [Space Age](space-age) | [.exs](space-age/space_age.exs) | |
-| ⭐ | [Pig Latin](pig-latin) | [.exs](pig-latin/pig_latin.exs) | |
+|  | [Pig Latin](pig-latin) | [.exs](pig-latin/pig_latin.exs) | |
 |  | [Protein Translation](protein-translation) | [.exs](protein-translation/protein_translation.exs) | |
 |  | [Strain](strain)| [.exs](strain/strain.exs) | |
 |  | [Rotational Cipher](rotational-cipher) | [.exs](rotational-cipher/rotational_cipher.exs) | |
