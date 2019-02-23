@@ -4,7 +4,7 @@
   </a>
 </p>
 <p align="center">
-  <img alt="Solutions" src="https://img.shields.io/badge/Solutions-18-009DA9.svg?longCache=true&style=for-the-badge">
+  <img alt="Solutions" src="https://img.shields.io/badge/Solutions-19-009DA9.svg?longCache=true&style=for-the-badge">
   <img alt="Languages" src="https://img.shields.io/badge/Languages-Elixir-009DA9.svg?longCache=true&style=for-the-badge">
 </p>
 <p align="center">
@@ -14,6 +14,7 @@
 # Problems
 |   | Problem  | Solution | Categories | Notes |
 |-- |:--------:|:--------:|:----------:|:-----:|
+| ⭐ | [Scrabble Score](scrabble-score) | [.exs](scrabble-score/scrabble.exs) | Reduce | Recursive and efficient solution with String's binary |
 | ⭐ | [Sublist](sublist) | [.exs](sublist/sublist.exs) | Lists, Enumeration | Recursive and efficient solution |
 | ⭐ | [Run Length Encoding](run-length-encoding) | [.exs](run-length-encoding/rle.exs) | Algorithms, Strings | Encode and decode recursively |
 |    | [Raindrops](raindrops) | [.exs](raindrops/raindrops.exs) | Conditionals | Ternary operator simulated with && and &#124;&#124; |
