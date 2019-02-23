@@ -9,13 +9,14 @@ defmodule RNATranscription do
   """
   @spec to_rna([char]) :: [char]
   def to_rna(dna, rna \\ [])
-  def to_rna([n | d], rna) do
-    to_rna(d, rna ++ [cond do
-      n == ?G -> ?C
-      n == ?C -> ?G
-      n == ?T -> ?A
-      n == ?A -> ?U
-    end])
+  def to_rna([head | tail], rna) do
+    nucleotide = case head do
+      ?G -> ?C
+      ?C -> ?G
+      ?T -> ?A
+      ?A -> ?U
+    end
+    to_rna(tail, [nucleotide | rna])
   end
-  def to_rna([], rna), do: rna
+  def to_rna([], rna), do: Enum.reverse(rna)
 end
