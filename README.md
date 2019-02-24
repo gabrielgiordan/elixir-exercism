@@ -4,7 +4,7 @@
   </a>
 </p>
 <p align="center">
-  <img alt="Solutions" src="https://img.shields.io/badge/Solutions-21-009DA9.svg?longCache=true&style=for-the-badge">
+  <img alt="Solutions" src="https://img.shields.io/badge/Solutions-22-009DA9.svg?longCache=true&style=for-the-badge">
   <img alt="Languages" src="https://img.shields.io/badge/Languages-Elixir-009DA9.svg?longCache=true&style=for-the-badge">
 </p>
 <p align="center">
@@ -14,6 +14,7 @@
 # Problems
 |   | Problem  | Solution | Categories | Notes |
 |-- |:--------:|:--------:|:----------:|:-----:|
+|    | [Anagram](anagram) | [.exs](anagram/anagram.exs) | Filter, Enumeration | Recursion with Map |
 |    | [Pangram](pangram) | [.exs](pangram/pangram.exs) | Enumerations, Strings | Recursion with MapSet |
 |    | [Sum of Multiples](sum-of-multiples) | [.exs](sum-of-multiples/sum_of_multiples.exs) | Algorithms, Reduce, Math | Recursive solution to sum the multiples of the factors provided |
 | ⭐ | [Scrabble Score](scrabble-score) | [.exs](scrabble-score/scrabble.exs) | Reduce | Recursive and efficient solution with String's binary |
