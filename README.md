@@ -4,7 +4,7 @@
   </a>
 </p>
 <p align="center">
-  <img alt="Solutions" src="https://img.shields.io/badge/Solutions-23-009DA9.svg?longCache=true&style=for-the-badge">
+  <img alt="Solutions" src="https://img.shields.io/badge/Solutions-24-009DA9.svg?longCache=true&style=for-the-badge">
   <img alt="Languages" src="https://img.shields.io/badge/Languages-Elixir-009DA9.svg?longCache=true&style=for-the-badge">
 </p>
 <p align="center">
@@ -14,11 +14,12 @@
 # Problems
 |   | Problem  | Solution | Categories | Notes |
 |-- |:--------:|:--------:|:----------:|:-----:|
+| ⭐ | [Matrix](matrix) | [.exs](matrix/matrix.exs) | String Processing, Structs | Recursive transpose algorithm that supports non-square matrixes, strings and integers conversions of n digits or characters, and efficient string to number implementation |
 |    | [Roman Numerals](roman-numerals) | [.exs](roman-numerals/roman.exs) | Algorithms, Pattern Matching | Integer's reduce implementation |
 |    | [Anagram](anagram) | [.exs](anagram/anagram.exs) | Filter, Enumeration | Recursion with Map |
 |    | [Pangram](pangram) | [.exs](pangram/pangram.exs) | Enumerations, Strings | Recursion with MapSet |
 |    | [Sum of Multiples](sum-of-multiples) | [.exs](sum-of-multiples/sum_of_multiples.exs) | Algorithms, Reduce, Math | Recursive solution to sum the multiples of the factors provided |
-| ⭐ | [Scrabble Score](scrabble-score) | [.exs](scrabble-score/scrabble.exs) | Reduce | Recursive and efficient solution with String's binary |
+| ⭐ | [Scrabble Score](scrabble-score) | [.exs](scrabble-score/scrabble.exs) | Reduce | Recursive and efficient solution with string's binary |
 | ⭐ | [Sublist](sublist) | [.exs](sublist/sublist.exs) | Lists, Enumeration | Recursive and efficient solution |
 | ⭐ | [Run Length Encoding](run-length-encoding) | [.exs](run-length-encoding/rle.exs) | Algorithms, Strings | Encode and decode recursively |
 |    | [Raindrops](raindrops) | [.exs](raindrops/raindrops.exs) | Conditionals | Ternary operator simulated with && and &#124;&#124; |
@@ -28,7 +29,7 @@
 |    | [Twelve Days](twelve-days) | [.exs](twelve-days/twelve_days.exs) | Enumerations, Reduce, String Formatting | Compose each verse recursively |
 |    | [Space Age](space-age) | [.exs](space-age/space_age.exs) | Pattern Matching | Just pre-multiply the planet orbit by the Earth orbit |
 |    | [Pig Latin](pig-latin) | [.exs](pig-latin/pig_latin.exs) | Pattern Matching, String Processing | Translate recursively |
-|    | [Protein Translation](protein-translation) | [.exs](protein-translation/protein_translation.exs) | Pattern Matching, String Processing | Simple solution to get recursively each codon using the binary of the String |
+|    | [Protein Translation](protein-translation) | [.exs](protein-translation/protein_translation.exs) | Pattern Matching, String Processing | Simple solution to get recursively each codon using the binary of the string |
 |    | [Strain](strain)| [.exs](strain/strain.exs) | Collections | Simple solution to filter an Enum |
 |    | [Rotational Cipher](rotational-cipher) | [.exs](rotational-cipher/rotational_cipher.exs) | String Processing | |
 | ⭐ | [Secret Handshake](secret-handshake) | [.exs](secret-handshake/secret_handshake.exs) | Binary Representation | Binary pattern matching, without Bitwise module |
