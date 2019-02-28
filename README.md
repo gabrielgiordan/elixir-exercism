@@ -4,7 +4,7 @@
   </a>
 </p>
 <p align="center">
-  <img alt="Solutions" src="https://img.shields.io/badge/Solutions-25-009DA9.svg?longCache=true&style=for-the-badge">
+  <img alt="Solutions" src="https://img.shields.io/badge/Solutions-26-009DA9.svg?longCache=true&style=for-the-badge">
   <img alt="Languages" src="https://img.shields.io/badge/Languages-Elixir-009DA9.svg?longCache=true&style=for-the-badge">
 </p>
 <p align="center">
@@ -14,6 +14,7 @@
 # Problems
 |   | Problem  | Solution | Categories | Notes |
 |-- |:--------:|:--------:|:----------:|:-----:|
+| ⭐ | [Queen Attack](queen-attack) | [.exs](queen-attack/queen_attack.exs) | Algorithms, Structs | Performatic and recursive O(64) to_string method to write the chess board |
 | ⭐ | [Bracket Push](bracket-push) | [.exs](bracket-push/bracket_push.exs) | Algorithms, Reduce, Enumeration | Recursive O(n) solution |
 | ⭐ | [Matrix](matrix) | [.exs](matrix/matrix.exs) | String Processing, Structs | Recursive transpose algorithm that supports non-square matrixes, strings and integers conversions of n digits or characters, and efficient string to number implementation |
 |    | [Roman Numerals](roman-numerals) | [.exs](roman-numerals/roman.exs) | Algorithms, Pattern Matching | Integer's reduce implementation |
