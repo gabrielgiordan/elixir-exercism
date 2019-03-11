@@ -4,7 +4,7 @@
   </a>
 </p>
 <p align="center">
-  <img alt="Solutions" src="https://img.shields.io/badge/Solutions-29-009DA9.svg?longCache=true&style=for-the-badge">
+  <img alt="Solutions" src="https://img.shields.io/badge/Solutions-30-009DA9.svg?longCache=true&style=for-the-badge">
   <img alt="Languages" src="https://img.shields.io/badge/Languages-Elixir-009DA9.svg?longCache=true&style=for-the-badge">
 </p>
 <p align="center">
@@ -15,6 +15,7 @@
 |   | Problem  | Solution | Categories | Notes |
 |-- |:--------:|:--------:|:----------:|:-----:|
 | ⭐ | [Queen Attack](queen-attack) | [.exs](queen-attack/queen_attack.exs) | Algorithms, Structs | Performatic and recursive O(64) to_string method to write the chess board |
+|    | [Nth Prime](nth-prime) | [.exs](nth-prime/nth_prime.exs) | Algorithms, Recursion, Math | Performatic Stream solution |
 | ⭐ | [Phone Number](phone-number) | [.exs](phone-number/phone_number.exs) | String Processing, Pattern Matching | Performatic solution without Regex, with bits and binary of string |
 |    | [All Your Base](all-your-base) | [.exs](all-your-base/all_your_base.exs) | Translation, Numbers, Math |  |
 | ⭐ | [Bracket Push](bracket-push) | [.exs](bracket-push/bracket_push.exs) | Algorithms, Reduce, Enumeration | Recursive O(n) solution |
