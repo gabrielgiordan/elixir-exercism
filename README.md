@@ -4,7 +4,7 @@
   </a>
 </p>
 <p align="center">
-  <img alt="Solutions" src="https://img.shields.io/badge/Solutions-34-009DA9.svg?longCache=true&style=for-the-badge">
+  <img alt="Solutions" src="https://img.shields.io/badge/Solutions-35-009DA9.svg?longCache=true&style=for-the-badge">
   <img alt="Languages" src="https://img.shields.io/badge/Languages-Elixir-009DA9.svg?longCache=true&style=for-the-badge">
 </p>
 <p align="center">
@@ -15,6 +15,7 @@
 |   | Problem  | Solution | Categories | Notes |
 |-- |:--------:|:--------:|:----------:|:-----:|
 | ⭐ | [Queen Attack](queen-attack) | [.exs](queen-attack/queen_attack.exs) | Algorithms, Structs | Performatic and recursive O(64) to_string method to write the chess board |
+|    | [Grade School](grade-school) | [.exs](grade-school/school.exs) | Maps |  |
 |    | [Leap](leap) | [.exs](leap/leap.exs) | Algorithms |  |
 |    | [Isogram](isogram) | [.exs](isogram/isogram.exs) | Reduce, Algorithms |  |
 |    | [Triangle](triangle) | [.exs](triangle/triangle.exs) | Algorithms |  |
