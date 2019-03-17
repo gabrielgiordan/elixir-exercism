@@ -4,7 +4,7 @@
   </a>
 </p>
 <p align="center">
-  <img alt="Solutions" src="https://img.shields.io/badge/Solutions-36-009DA9.svg?longCache=true&style=for-the-badge">
+  <img alt="Solutions" src="https://img.shields.io/badge/Solutions-37-009DA9.svg?longCache=true&style=for-the-badge">
   <img alt="Languages" src="https://img.shields.io/badge/Languages-Elixir-009DA9.svg?longCache=true&style=for-the-badge">
 </p>
 <p align="center">
@@ -45,6 +45,7 @@
 | ⭐ | [Secret Handshake](secret-handshake) | [.exs](secret-handshake/secret_handshake.exs) | Binary Representation | Binary pattern matching, without Bitwise module |
 |    | [Nucleotide Count](nucleotide-count) | [.exs](nucleotide-count/nucleotide_count.exs) | Enumerables, Maps, String Processing | |
 |    | [RNA Transcription](rna-transcription) | [.exs](rna-transcription/rna_transcription.exs) | Strings | |
+|    | [List Ops](list-ops) | [.exs](list-ops/list_ops.exs) | Lists, Enumeration, Recursion | |
 |    | [Beer Song](beer-song) | [.exs](beer-song/beer_song.exs) | Recursion, Pattern Matching | |
 |    | [Roman Numerals](roman-numerals) | [.exs](roman-numerals/roman.exs) | Algorithms, Pattern Matching | Integer's reduce implementation |
 |    | [Word Count](word-count) | [.exs](word-count/word_count.exs) | Lists, Maps, Reduce | |
