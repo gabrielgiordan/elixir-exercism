@@ -4,7 +4,7 @@
   </a>
 </p>
 <p align="center">
-  <img alt="Solutions" src="https://img.shields.io/badge/Solutions-37-009DA9.svg?longCache=true&style=for-the-badge">
+  <img alt="Solutions" src="https://img.shields.io/badge/Solutions-38-009DA9.svg?longCache=true&style=for-the-badge">
   <img alt="Languages" src="https://img.shields.io/badge/Languages-Elixir-009DA9.svg?longCache=true&style=for-the-badge">
 </p>
 <p align="center">
@@ -24,6 +24,7 @@
 |    | [Nth Prime](nth-prime) | [.exs](nth-prime/nth_prime.exs) | Algorithms, Recursion, Math | Performatic Stream solution |
 | ⭐ | [Phone Number](phone-number) | [.exs](phone-number/phone_number.exs) | String Processing, Pattern Matching | Performatic solution without Regex, with bits and binary of string |
 |    | [All Your Base](all-your-base) | [.exs](all-your-base/all_your_base.exs) | Translation, Numbers, Math |  |
+| ⭐ | [Meetup](meetup) | [.exs](meetup/meetup.exs) | Time, Calendar, Pattern Matching | Concise solution working with `rem` and `Date` |
 | ⭐ | [Bracket Push](bracket-push) | [.exs](bracket-push/bracket_push.exs) | Algorithms, Reduce, Enumeration | Recursive O(n) solution |
 | ⭐ | [Matrix](matrix) | [.exs](matrix/matrix.exs) | String Processing, Structs | Recursive transpose algorithm that supports non-square matrixes, strings and integers conversions of n digits or characters, and efficient string to number implementation |
 |    | [Anagram](anagram) | [.exs](anagram/anagram.exs) | Filter, Enumeration | Recursion with Map |
