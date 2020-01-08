@@ -19,5 +19,5 @@ defmodule Meetup do
   def to_scheduled_day(date, schedule), do: Date.add(date, @schedules[schedule] - 1)
 
   def to_next_weekday(date, weekday),
-    do: Date.add(date, rem(weekday - rem(Date.day_of_week(date), 7) + 7, 7))
+    do: Date.add(date, rem(weekday - Date.day_of_week(date) + 7, 7))
 end
