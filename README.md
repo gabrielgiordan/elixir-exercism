@@ -4,7 +4,7 @@
   </a>
 </p>
 <p align="center">
-  <img alt="Solutions" src="https://img.shields.io/badge/Solutions-41-009DA9.svg?longCache=true&style=for-the-badge">
+  <img alt="Solutions" src="https://img.shields.io/badge/Solutions-42-009DA9.svg?longCache=true&style=for-the-badge">
   <img alt="Languages" src="https://img.shields.io/badge/Languages-Elixir-009DA9.svg?longCache=true&style=for-the-badge">
 </p>
 <p align="center">
@@ -22,6 +22,7 @@
 |    | [Grade School](grade-school) | [.exs](grade-school/school.exs) | Maps |  |
 |    | [Leap](leap) | [.exs](leap/leap.exs) | Algorithms |  |
 |    | [Isogram](isogram) | [.exs](isogram/isogram.exs) | Reduce, Algorithms |  |
+|    | [Saddle Points](saddle-points) | [.exs](saddle-points/saddle_points.exs) | Matrices, String Processing, Enumeration |  |
 |    | [Triangle](triangle) | [.exs](triangle/triangle.exs) | Algorithms |  |
 |    | [Hamming](hamming) | [.exs](hamming/hamming.exs) | String Processing |  |
 |    | [Nth Prime](nth-prime) | [.exs](nth-prime/nth_prime.exs) | Algorithms, Recursion, Math | Performatic Stream solution |
