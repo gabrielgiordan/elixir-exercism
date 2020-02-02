@@ -4,7 +4,7 @@
   </a>
 </p>
 <p align="center">
-  <img alt="Solutions" src="https://img.shields.io/badge/Solutions-39-009DA9.svg?longCache=true&style=for-the-badge">
+  <img alt="Solutions" src="https://img.shields.io/badge/Solutions-40-009DA9.svg?longCache=true&style=for-the-badge">
   <img alt="Languages" src="https://img.shields.io/badge/Languages-Elixir-009DA9.svg?longCache=true&style=for-the-badge">
 </p>
 <p align="center">
@@ -15,6 +15,7 @@
 |   | Problem  | Solution | Categories | Notes |
 |-- |:--------:|:--------:|:----------:|:-----:|
 | ⭐ | [Markdown](markdown) | [.exs](markdown/markdown.exs) | Refactoring | Performatic and recursive O(n) markdown parser with metaprogrammed functions |
+| ⭐ | [Spiral Matrix](spiral) | [.exs](spiral-matrix/spiral.exs) | Lists, Transforming | Math solution |
 | ⭐ | [Queen Attack](queen-attack) | [.exs](queen-attack/queen_attack.exs) | Algorithms, Structs | Performatic and recursive O(64) to_string method to write the chess board |
 |    | [Tournament](tournament) | [.exs](tournament/tournament.exs) | Formatting, Sorting, String Processing |  |
 |    | [Grade School](grade-school) | [.exs](grade-school/school.exs) | Maps |  |
