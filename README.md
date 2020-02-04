@@ -4,7 +4,7 @@
   </a>
 </p>
 <p align="center">
-  <img alt="Solutions" src="https://img.shields.io/badge/Solutions-43-009DA9.svg?longCache=true&style=for-the-badge">
+  <img alt="Solutions" src="https://img.shields.io/badge/Solutions-44-009DA9.svg?longCache=true&style=for-the-badge">
   <img alt="Languages" src="https://img.shields.io/badge/Languages-Elixir-009DA9.svg?longCache=true&style=for-the-badge">
 </p>
 <p align="center">
@@ -16,9 +16,10 @@
 |-- |:--------:|:--------:|:----------:|:-----:|
 | ⭐ | [Markdown](markdown) | [.exs](markdown/markdown.exs) | Refactoring | Performatic and recursive O(n) markdown parser with metaprogrammed functions |
 | ⭐ | [Spiral Matrix](spiral) | [.exs](spiral-matrix/spiral.exs) | Lists, Transforming | Math solution |
+| ⭐ | [OCR Numbers](ocr-numbers) | [.exs](ocr-numbers/ocr_numbers.exs) | Enumerations, Strings | Uses streams and parallel processing with `async_stream/2` |
 | ⭐ | [Queen Attack](queen-attack) | [.exs](queen-attack/queen_attack.exs) | Algorithms, Structs | Performatic and recursive O(64) to_string method to write the chess board |
 |    | [Tournament](tournament) | [.exs](tournament/tournament.exs) | Formatting, Sorting, String Processing |  |
-| ⭐ | [Parallel Letter Frequency](parallel-letter-frequency) | [.exs](parallel-letter-frequency/frequency.exs) | Concurrency, OTP | Solution using `Task.async_stream/2` |
+| ⭐ | [Parallel Letter Frequency](parallel-letter-frequency) | [.exs](parallel-letter-frequency/frequency.exs) | Concurrency, OTP | Solution using `async_stream/2` |
 | ⭐ | [Robot Simulator](robot-simulator) | [.exs](robot-simulator/robot_simulator.exs) | Structs, Pattern Matching | O(n) solution where n is the string length, with metaprogrammed functions |
 |    | [Grade School](grade-school) | [.exs](grade-school/school.exs) | Maps |  |
 |    | [Leap](leap) | [.exs](leap/leap.exs) | Algorithms |  |
